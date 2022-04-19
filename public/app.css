@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(266, 72%, 11%);
+}
+.card {
+    background-color: hsl(0, 0%, 0%, 0%);
+}
+.inputbox {
+    background-color: hsl(0, 0%, 0%, 0%) !important;
+    border: 2px solid hsl(265, 26%, 23%, 100%) !important;
+    font-size: 16px;
+    height: 6rem;
+}
+.inputbox:disabled {
+    border: 2px solid hsl(265, 26%, 23%, 30%) !important;
+}
+.inputContainer { /* anime edeceğiz inş. */
+    transition: all 0s;
+}
+.comprer {
+    color: hsl(215, 26%, 73%, 70%);
+}
+.comprer i {
+    background-color: hsl(10, 80%, 48%, 70%);
+    border-radius: 5px;
+    color: hsl(215, 26%, 73%, 100%);
+    font-style: normal;
+    margin: 0px 3px 0px 3px;
+    padding-bottom: 0px !important;
+}
+.compareButton {
+    color: hsl(215, 26%, 3%, 70%);
+    background-color: hsl(215, 26%, 73%, 35%);
+    border: 0px;
+    height: 48px;
+    border-radius: 5px;
+}
+.clearButton {
+    color: hsl(215, 26%, 73%, 100%);
+    background-color: hsl(10, 80%, 48%, 60%);
+    border: 0px;
+    height: 48px;
+    border-radius: 5px;
+    width: 5rem;
+}
+.compareButton:hover{
+    color: hsl(215, 26%, 3%, 70%);
+    background-color: hsl(215, 26%, 73%, 45%);
+}
+.clearButton:hover{
+    color: hsl(215, 26%, 73%, 100%);
+    background-color: hsl(10, 80%, 48%, 80%);
+}
+.x {
+    color: hsl(0, 70%, 55%, 0%) !important;
+    background-color: hsl(10, 80%, 48%, 50%) !important;
+}
+.i {
+    color: hsl(0, 0%, 0%, 0%) !important;
+    background-color: hsl(0, 0%, 0%, 0%) !important;
+}
+.marker {
+    width: 95%;
+    margin-bottom: 20px;
+}
+.hashholder {
+    position: absolute;
+    width: 95%;
+    margin-bottom: 20px;
+    height: 200px;
+}
+li {
+    text-align: center;
+    background-color: hsl(0, 0%, 0%, 0%);
+    margin: 1px;
+    padding: 4px;
+    border-radius: 3px;
+    width: 16px;
+    color: hsl(0, 0%, 80%, 80%);
+}
+.visibleClass {
+    visibility: visible !important;
+}
+.hiddenClass {
+    visibility: hidden;
+}
+.appinfo {
+    vertical-align:middle;
+    margin-left: 0;
+    margin-top: -30px;
+    font-size: 11px;
+}
+.charBadge {
+    background-color: hsl(0, 0%, 0%, 0%) !important;
+    border: 1px solid hsl(265, 26%, 23%, 100%) !important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(239, 69, 5, 0.55);
+}
+:root {
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0));
+}

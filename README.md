@@ -1,4 +1,14 @@
-# comprer
+# Comprer.
+### Hash String Compare Tool
+###### by Bora Kucukkara
+
+
+![Vue](public/favicon.ico?raw=true "Vue.js")
+
+![Comprer](public/Comprer01.png?raw=true "Vue.js")
+
+![Comprer](public/Comprer02.png?raw=true "Vue.js")
+
 
 ## Project setup
 ```
